@@ -1,0 +1,131 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+.top-container{
+    padding-top: 200px;
+    background-image: url(Pictures/Kitesurfing\ beach.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+   
+}
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(65, 95, 95);
+    font-style: italic;
+    font-size: 4pc;
+    font-weight: bold;
+  }
+  .bottom {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: wheat;
+    font-style: italic;
+    font-size: 3pc;
+    font-weight: bold;
+  }
+  .Emojis {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+  }
+  hr{
+    border: dotted #829191 6px;
+    border-bottom: none;
+    width: 50%;
+    margin-top: 100px;
+  }
+  .Middle{
+    text-align: center;
+    font-size: 25px;
+  }
+  p{
+    font-size: 45px;
+  }
+  .main{
+    margin-top: 50px;
+    text-align: center;
+  }
+  .main{
+    text-align: center;
+    font-size: 25px;
+  }
+  h1{
+    font-size: 30px;
+    color: rgb(0, 255, 217);
+  }
+  .kitephoto{
+    height: 250px;
+    border-radius: 50%;
+    padding-right: 30px;
+  }
+  .Kite-spots{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+    row-gap: 2rem;
+    place-items: center;
+    text-align: center;
+  }
+  .Kite-spots > p{
+    font-size: x-large;
+  }
+ .text{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(127, 182, 255);
+  }
+  .text2{
+    text-align: center;
+    font-size: 25px;
+  }
+.link{
+    text-align: center;
+    color: rgb(127, 182, 255);
+
+}
+
+
+
+
+.link {
+    background: rgb(53, 99, 168);
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+  }
+  
+  a {
+    color: #31a7ab;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #eaf6f6;
+  }
+ 
+  .link:hover {
+    background: rgb(87, 142, 179);
+  }
+
+  .abs{
+    text-align: center;
+  }
+  .Bottom{
+    margin-top: 50px;
+    background-color: #21b196;
+    padding: 5px 0 5px;
+    text-align: center;
+  }
